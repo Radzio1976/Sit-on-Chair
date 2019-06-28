@@ -537,4 +537,36 @@ form {
     color: white;
 }
 
+.footer-wrapperr {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+
+}
+
+.footer-left p {
+    font-size: 20px;
+    color: #27c7ab;
+    line-height: 50px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right__social-icons img {
+    width: 45px;
+}
+
+.footer-right h2 {
+    margin-left: 70px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.footer-right span {
+    color: #27c7ab;
+}
+
 
