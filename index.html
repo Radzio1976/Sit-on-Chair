@@ -6,38 +6,111 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sit on Chair</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>sit <span class="logo-color">on</span> chair</h1>
-        <nav>
-            <ul>
-                <li><a href="#">O firmie</a>
-                    <ul>
-                        <li><a href="#">Aktualności</a></li>
-                        <li><a href="#">Nasz team</a></li>
-                        <li><a href="#">Historia</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </nav>
+        <div class="header-wrapper container">
+            <h1>sit <span class="logo-color">on</span> chair</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">O firmie</a>
+                        <ul>
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section class="slider">
-        <a class="arrow-left" href="#">&lt;</a>
-            <div class="slider-container">
+        <div class="slider-wrapper container">
+            <a class="arrow-left" href="#">&lt;</a>
                 <div class="slider-image">
-                    <img src="../images/black_chair.png">
+                    <img src="images/black_chair.png">
                 </div>
                 <article>
                     <h1>sit <span class="slider-logo-color">on</span> our <span class="slider-logo-color">chair</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a class="button" href="#">Zobacz więcej</a>
+                    <a class="slider-button" href="#">Zobacz więcej</a>
                 </article>
+            <a class="arrow-right" href="#">&gt;</a>
+        </div>
+    </section>
+    <section class="chairs">
+        <div class="chairs-images container">
+            <div class="chairs-images__image chairs-wrapper">           
+                <img src="images/box1_img.jpg" alt="Chair Clair">
+                    <div class="chairs-images__title">
+                        <h2>Chair Clair</h2>
+                    </div>
             </div>
-        <a class="arrow-right" href="#">&gt;</a>
+            <div class="chairs-images__image chairs-wrapper">
+                <img src="images/box2_img.jpg" alt="Chair Margarita">
+                    <div class="chairs-images__title">
+                        <h2>Chair MARGARITA</h2>
+                    </div>
+            </div>
+            <article  class="chairs-title-widget chairs-wrapper">
+                <h2>Finds all inputs</h2>
+                <p>Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events heve been linked.</p>
+                <p>Notice there is no change when clicking the checkboxes since no click events have been.</p>
+            </article>
+        </div>
+    </section>
+    <section class="prices">
+        <div class="prices-widgets container">
+            <div class="prices-widgets__title">
+                <h2>Cennik</h2>
+            </div>
+            <div class="prices-widgets__widget__left prices-widgets__wrapper">
+                <div class="outside-circle">
+                    <div class="inner-circle"></div>
+                </div>
+                <h2 class="prices-widgets__widget__left__title">Basic plan</h2>
+                <div class="prices-widgets__widget__circle">
+                    <h2>85<sup>99</sup></h2>
+                    <p>pln/msc</p>
+                </div>
+                <h2 class="prices-widgets__widget__left__delivery">Zakup towaru + dowóz</h2>
+                <h2 class="prices-widgets__widget__left__service">Serwis</h2>
+                <a class="button" href="#">Dołącz</a>
+            </div>
+            <div class="prices-widgets__widget__middle prices-widgets__wrapper">
+                    <div class="outside-circle">
+                        <div class="inner-circle"></div>
+                    </div>
+                    <h2 class="prices-widgets__widget__middle__title">Standard plan</h2>
+                    <div class="prices-widgets__widget__circle">
+                        <h2>95<sup>99</sup></h2>
+                        <p>pln/msc</p>
+                    </div>
+                    <h2 class="prices-widgets__widget__middle__delivery">Zakup towaru + dowóz</h2>
+                    <h2 class="prices-widgets__widget__middle__service">Serwis</h2>
+                    <h2 class="prices-widgets__widget__middle__guarantee">Gwarancja 5 lat</h2>
+                    <a class="button" href="#">Dołącz</a>
+            </div>
+            <div class="prices-widgets__widget__right prices-widgets__wrapper">
+                    <div class="outside-circle">
+                        <div class="inner-circle"></div>
+                    </div>
+                    <h2 class="prices-widgets__widget__right__title">Advance plan</h2>
+                    <div class="prices-widgets__widget__circle">
+                        <h2>211<sup>00</sup></h2>
+                        <p>pln/msc</p>
+                    </div>
+                    <h2 class="prices-widgets__widget__right__delivery">Zakup towaru + dowóz</h2>
+                    <h2 class="prices-widgets__widget__right__service">Serwis</h2>
+                    <h2 class="prices-widgets__widget__right__guarantee">Gwarancja 6 lat</h2>
+                    <h2 class="prices-widgets__widget__right__advice">Porady projektanta</h2>
+                    <a class="button" href="#">Dołącz</a>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
