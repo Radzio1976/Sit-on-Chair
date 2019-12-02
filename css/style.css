@@ -143,6 +143,7 @@ nav>ul>li>ul>li {
     margin-top: 160px;
     color: #24ba9f;
     z-index: 10;
+    height: 135px;
 }
 
 .arrow-right {
@@ -150,6 +151,7 @@ nav>ul>li>ul>li {
     text-decoration: none;
     margin-top: 160px;
     color: #24ba9f;
+    height: 135px;
 }
 .chairs {
     width: 100%;
